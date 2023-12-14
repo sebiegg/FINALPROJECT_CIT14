@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('howlsv2.gif'); /* Add your background GIF URL here */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #333; /* Adjust text color for better visibility on the background */
+    }
+
+    .header {
+      background-color: rgba(0, 0, 0, 0.582); /* Use rgba for a semi-transparent background */
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .container-fluid {
+      padding: 20px;
+    }
+
+    .row {
+      margin: 0;
+    }
+
+    .left-column {
+      background-color: rgba(233, 236, 239, 0.8);
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .social-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .social-cards button {
+      margin: 5px;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-link {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      opacity: 0.7;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .social-link img {
+      max-width: 40px;
+      border-radius: 50%;
+    }
+
+    .social-link:hover {
+      opacity: 1;
+    }
+
+    .tagline,
+    .fun-facts {
+      margin-top: 20px;
+    }
+
+    .right-column {
+      background-color: rgba(177, 167, 167, 0.9);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .about-me-header,
+    .programming-portfolio-header {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .about-me-content p {
+      line-height: 1.6;
+      color: #1d1a1a;
+    }
+
+    .programming-portfolio-header h2 {
+      margin-bottom: 0;
+    }
+
+    .project-card {
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+
+    .project-card img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin: 0 auto;
+    }
+
+    .project-card-body {
+      padding: 15px;
+      text-align: center;
+      min-height: 160px;
+    }
+
+    .view-project-link {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  </style>
+  <title>Final Project</title>
+</head>
+<body>
+
+  <div class="header">
+    <h1>GITHUB - About Me Page</h1>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="left-column">
+          <div class="image-container">
+            <img src="myprof.jpg" alt="Shania Issey Lacsina">
+          </div>
+          <h2>sebi</h2>
+          <div class="social-cards">
+            <button class="btn btn-secondary">Gamer</button>
+            <button class="btn btn-secondary">Coder</button>
+            <button class="btn btn-secondary">Music</button>
+          </div>
+          <p>Social Media Accounts:</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100069742759449" class="social-link"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/sebeegg" class="social-link"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://github.com/sebiegg" class="social-link"><img src="github.png" alt="Github"></a>
+          </div>
+          <div class="tagline">
+            <p>FINAL PROJECT</p>
+          </div>
+          <div class="fun-facts">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="right-column">
+          <div class="about-me-header">
+            <h2>About Me</h2>
+          </div>
+          <div class="about-me-content">
+            <p>I'm a second-year IT student at the University of the Cordilleras. Think of me as a level 2 player in the game of IT, where coding is like an epic quest, and debugging is just a side mission.
+              
+            </p>💻 Skill Level: 2 (still a noob, but leveling up daily)
+            </p>
+            <p><strong>LIKES/DISLIKES:</strong></p>
+            <ul>
+              <li>❤️<strong>Likes:</strong></li>
+              <li>😺 Cats</li>
+              <li>🎮 Gaming</li>
+              <li>🎸 Guitar</li>
+              <li>🤬<strong>DISLIKES</strong></li>
+              <li>🤥 Liars</li>
+              <li>🤝Users</li>
+            </ul>
+            <hr>
+            <p><strong>"It's Not About Whether I Can. I Have To Do It."</strong></p>
+          </div>
+
+          <div class="programming-portfolio-header">
+            <h2>&lt;Programming Portfolio&gt;</h2>
+          </div>
+
+          <!-- Display projects -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="project-card">
+                <!-- Project 1 -->
+                <div class="card-body project-card-body">
+                  <h3 class="card-title">Project 1</h3>
+                  <p class="card-text">Progress Bar</p>
+                  <img class="card-img-top" src="Progress.png" alt="Progress-Bar">
+                  <a href="https://sebiegg.github.io/ProgressBar/ProgressBar.html" class="btn btn-primary view-project-link">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="project-card">
+                <!-- Project 2 -->
+                <div class="card-body project-card-body">
+                  <h3 class="card-title">Project 2</h3>
+                  <p class="card-text">GRADE</p>
+                  <img class="card-img-top" src="grade.png" alt="GRADE">
+                  <a href="https://sebiegg.github.io/Grade/Grade.html" class="btn btn-primary view-project-link">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+                </div>
+              </div>
+            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
